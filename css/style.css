@@ -140,7 +140,7 @@ html {
 }
 
 .wrapper {
-    position: sticky;
+    position: fixed;
     bottom: 30%;
     color:white;
     width: 300px;
