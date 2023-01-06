@@ -141,15 +141,20 @@ html {
 
 .wrapper {
     position: fixed;
-    bottom: 10%;
+    top: 50%;
     color:white;
     width: 300px;
     background: rgb(30, 29, 29);
-
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
 }
 .all {
     padding: 50px 50px 10px;
     font-size: 20px;
+    
 }
 
 .main{
@@ -158,8 +163,6 @@ html {
     height: 300px;
     overflow: hidden;
     left:50% ;
-    
-    
 }
 .image,.text{
     width: 100%;
@@ -169,7 +172,7 @@ html {
 }
 .image{
     width: 100%;
-    height:100%;
+    height: 100%;
 }
 .text{
     
@@ -184,3 +187,21 @@ html {
     top: 90px;
     left: 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
