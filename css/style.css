@@ -141,7 +141,7 @@ html {
 
 .wrapper {
     position: fixed;
-    bottom: 30%;
+    bottom: 10%;
     color:white;
     width: 300px;
     background: rgb(30, 29, 29);
